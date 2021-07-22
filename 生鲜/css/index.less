@@ -1,0 +1,282 @@
+@import "common";
+@font:50;
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    min-width: 320px;
+    margin: 0 auto;
+    width: 15rem;
+    line-height: 1.5;
+    background-color: #fff;
+}
+.biaotou{
+    background-color: #df2a1d;
+    width: 15rem;
+    height: 69rem / @font;
+    img{
+        width: 727rem / @font;
+        margin: auto;
+       padding: 10rem / @font ;
+    }
+}
+.daohang{
+    width: 15rem;
+    height: 527rem / @font;
+    background: linear-gradient(to bottom,#df2a1d 5%,#ffffff );
+    display: flex;
+    flex-direction: column;
+
+    .sou{
+        display: inherit;
+        flex-direction: row;
+
+        .daohang_left{
+            width: 55rem / @font;
+            height: 79rem / @font;
+            // background-color: pink;
+            margin:  17rem / @font 18rem / @font 22rem / @font 12rem / @font;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+    
+            img{
+                width:36rem / @font;
+                height: 30rem / @font;
+                display: block;  
+                margin: 0 auto;  
+            }
+            p{
+                font-size: 20rem / @font;
+                color: #fff;
+                text-align: center;
+            }
+        }
+        .medio{
+            flex: 1;
+            // background-color: #666;
+            height: 65rem / @font;
+            display: flex;
+            margin-top: 20rem /@font;
+            position: relative;
+    
+            input{
+                flex: 1;
+                border-radius: 30rem / @font;
+                background-color: #e54f44;
+                border: 0;
+                color: #f5b9b5;
+                font-weight: 500;
+                padding-left: 20rem / @font;
+                outline: none;
+            }
+            img{
+                width: 37rem / @font;
+                height: 37rem / @font;
+                position: absolute;
+                right: 20rem / @font;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        .daohang_right{
+            width: 50rem / @font;
+            height: 65rem / @font;
+            // background-color: pink;
+            margin:  22rem / @font 10rem / @font 31rem / @font 13rem / @font;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 35rem / @font;
+                height: 37rem / @font;
+            }
+        }
+    }
+    .banner{
+        // background-color: pink;
+        width: 711rem / @font;
+        height: 285rem / @font;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items:flex-end;
+        top: 200rem / @font;
+        img{
+            
+            width: 711rem / @font;
+            height: 285rem / @font;
+            
+        }
+       
+    }
+}
+// nav模块
+nav{
+    width: 750rem / @font;
+    a{
+        float: left;
+        width: 150rem / @font;
+        height: 140rem / @font;
+        text-align: center;
+        text-decoration: none;
+        img{
+            display: block;
+            width: 71rem / @font;
+            height: 71rem / @font;
+            margin: -79rem / @font auto 0;
+        }
+        span{
+            display: block;
+            font-size: 24rem / @font;
+            color: #000;
+            margin-top: 10rem / @font
+        }
+    }
+}
+// 折扣区
+.zhekou{
+    display: flex;
+    width: 15rem;
+    justify-content:center;
+    .zhekou_left{
+        margin-top: -79rem / @font;
+        display: flex;
+        width: 340rem / @font;
+        height: 340rem / @font;
+        position: relative;
+        img{
+            width: 340rem / @font;
+            height: 340rem / @font;
+        }
+        p{
+            position: absolute;
+            color: #ed3e32;
+            font-size: 28rem / @font;
+            font-weight: 600;
+            top: 10rem / @font;
+            left: 10rem / @font;
+        }
+        a{
+            position: absolute;
+            top: 50rem / @font;
+            left: 10rem / @font;
+
+            img{
+                width: 108rem / @font;
+                height: 78rem / @font;
+            }
+        }
+    }
+    .zhekou_right{
+        margin-top: -79rem / @font;
+        margin-left: 15rem / @font;
+        .zhekou_right_top{
+            img{
+                width: 340rem / @font;
+                height: 165rem / @font;
+            }
+            p{
+                position: absolute;
+                color: #ed3e32;
+                font-size: 28rem / @font;
+                font-weight: 600;
+                top: 10rem / @font;
+                left: 10rem / @font;
+            }
+        }    
+        .zhekou_right_bom{
+            img{
+                width: 340rem / @font;
+                height: 165rem / @font;
+                margin-top: -6rem / @font;
+            }
+        }
+        
+    }
+}
+.a1{
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 439rem / @font;
+        height: 30rem / @font;
+    }
+}
+
+.n1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem / @font;
+    position: relative;
+    .n1_left{
+        img{
+            width: 330rem / @font;
+            height: 330rem / @font;
+        }
+        p{
+            font-size: 26rem / @font;
+            text-align:center;
+            color: #000000;
+        }
+        span{
+            position: absolute;
+            bottom: -40rem / @font;
+            font-size: 26rem / @font;
+            color: red;
+            
+        }
+    }
+    .n1-right{
+        img{
+            width: 330rem / @font;
+            height: 330rem / @font;
+            margin-left: 20rem / @font;
+        }
+        p{
+            font-size: 26rem / @font;
+            text-align:center;
+            color: #000000;
+        }
+        span{
+            position: absolute;
+            bottom: -40rem / @font;
+            font-size: 26rem / @font;
+            color: red;
+            
+        }
+    }
+}
+#n2{
+    margin-top: 50rem / @font;
+}
+// 底部
+.di{
+    width: 15rem;
+    height: 100rem / @font;
+    // background-color: #666;
+    margin-top: 50rem / @font;
+    div{
+        float: left;
+        width: 187.5rem / @font;
+        height: 100rem / @font;
+    }
+
+    .q1{
+        img{
+            width: 44rem / @font;
+            height: 43rem / @font;
+            margin-left: 70rem / @font;
+        }
+        .red{
+            color: red;
+        }
+        p{
+            font-size: 20rem / @font;
+            text-align: center;
+        }
+        
+    }
+}

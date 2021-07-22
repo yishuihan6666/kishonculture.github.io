@@ -1,0 +1,305 @@
+html {
+  font-size: 50px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26666667px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 320px;
+  margin: 0 auto;
+  width: 15rem;
+  line-height: 1.5;
+  background-color: #fff;
+}
+.biaotou {
+  background-color: #df2a1d;
+  width: 15rem;
+  height: 1.38rem;
+}
+.biaotou img {
+  width: 14.54rem;
+  margin: auto;
+  padding: 0.2rem;
+}
+.daohang {
+  width: 15rem;
+  height: 10.54rem;
+  background: linear-gradient(to bottom, #df2a1d 5%, #ffffff);
+  display: flex;
+  flex-direction: column;
+}
+.daohang .sou {
+  display: inherit;
+  flex-direction: row;
+}
+.daohang .sou .daohang_left {
+  width: 1.1rem;
+  height: 1.58rem;
+  margin: 0.34rem 0.36rem 0.44rem 0.24rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.daohang .sou .daohang_left img {
+  width: 0.72rem;
+  height: 0.6rem;
+  display: block;
+  margin: 0 auto;
+}
+.daohang .sou .daohang_left p {
+  font-size: 0.4rem;
+  color: #fff;
+  text-align: center;
+}
+.daohang .sou .medio {
+  flex: 1;
+  height: 1.3rem;
+  display: flex;
+  margin-top: 0.4rem;
+  position: relative;
+}
+.daohang .sou .medio input {
+  flex: 1;
+  border-radius: 0.6rem;
+  background-color: #e54f44;
+  border: 0;
+  color: #f5b9b5;
+  font-weight: 500;
+  padding-left: 0.4rem;
+  outline: none;
+}
+.daohang .sou .medio img {
+  width: 0.74rem;
+  height: 0.74rem;
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.daohang .sou .daohang_right {
+  width: 1rem;
+  height: 1.3rem;
+  margin: 0.44rem 0.2rem 0.62rem 0.26rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.daohang .sou .daohang_right img {
+  width: 0.7rem;
+  height: 0.74rem;
+}
+.daohang .banner {
+  width: 14.22rem;
+  height: 5.7rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: flex-end;
+  top: 4rem;
+}
+.daohang .banner img {
+  width: 14.22rem;
+  height: 5.7rem;
+}
+nav {
+  width: 15rem;
+}
+nav a {
+  float: left;
+  width: 3rem;
+  height: 2.8rem;
+  text-align: center;
+  text-decoration: none;
+}
+nav a img {
+  display: block;
+  width: 1.42rem;
+  height: 1.42rem;
+  margin: -1.58rem auto 0;
+}
+nav a span {
+  display: block;
+  font-size: 0.48rem;
+  color: #000;
+  margin-top: 0.2rem;
+}
+.zhekou {
+  display: flex;
+  width: 15rem;
+  justify-content: center;
+}
+.zhekou .zhekou_left {
+  margin-top: -1.58rem;
+  display: flex;
+  width: 6.8rem;
+  height: 6.8rem;
+  position: relative;
+}
+.zhekou .zhekou_left img {
+  width: 6.8rem;
+  height: 6.8rem;
+}
+.zhekou .zhekou_left p {
+  position: absolute;
+  color: #ed3e32;
+  font-size: 0.56rem;
+  font-weight: 600;
+  top: 0.2rem;
+  left: 0.2rem;
+}
+.zhekou .zhekou_left a {
+  position: absolute;
+  top: 1rem;
+  left: 0.2rem;
+}
+.zhekou .zhekou_left a img {
+  width: 2.16rem;
+  height: 1.56rem;
+}
+.zhekou .zhekou_right {
+  margin-top: -1.58rem;
+  margin-left: 0.3rem;
+}
+.zhekou .zhekou_right .zhekou_right_top img {
+  width: 6.8rem;
+  height: 3.3rem;
+}
+.zhekou .zhekou_right .zhekou_right_top p {
+  position: absolute;
+  color: #ed3e32;
+  font-size: 0.56rem;
+  font-weight: 600;
+  top: 0.2rem;
+  left: 0.2rem;
+}
+.zhekou .zhekou_right .zhekou_right_bom img {
+  width: 6.8rem;
+  height: 3.3rem;
+  margin-top: -0.12rem;
+}
+.a1 {
+  display: flex;
+  justify-content: center;
+}
+.a1 img {
+  width: 8.78rem;
+  height: 0.6rem;
+}
+.n1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.4rem;
+  position: relative;
+}
+.n1 .n1_left img {
+  width: 6.6rem;
+  height: 6.6rem;
+}
+.n1 .n1_left p {
+  font-size: 0.52rem;
+  text-align: center;
+  color: #000000;
+}
+.n1 .n1_left span {
+  position: absolute;
+  bottom: -0.8rem;
+  font-size: 0.52rem;
+  color: red;
+}
+.n1 .n1-right img {
+  width: 6.6rem;
+  height: 6.6rem;
+  margin-left: 0.4rem;
+}
+.n1 .n1-right p {
+  font-size: 0.52rem;
+  text-align: center;
+  color: #000000;
+}
+.n1 .n1-right span {
+  position: absolute;
+  bottom: -0.8rem;
+  font-size: 0.52rem;
+  color: red;
+}
+#n2 {
+  margin-top: 1rem;
+}
+.di {
+  width: 15rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
+.di div {
+  float: left;
+  width: 3.75rem;
+  height: 2rem;
+}
+.di .q1 img {
+  width: 0.88rem;
+  height: 0.86rem;
+  margin-left: 1.4rem;
+}
+.di .q1 .red {
+  color: red;
+}
+.di .q1 p {
+  font-size: 0.4rem;
+  text-align: center;
+}
